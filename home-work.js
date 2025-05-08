@@ -210,16 +210,26 @@
 
 
 //Q16 write a function to count the occurrences of a letter in a string?
-function letter(str){
-    let count=0;
-return str.reduce((acc,num)=>{
-    if(!acc.includes(num)){
-        acc.push(num)
+// function letter(str){
+//     let count=0;
+// return str.reduce((acc,num)=>{
+//     if(!acc.includes(num)){
+//         acc.push(num)
+//     }
+// },[])
+// }
+// let res=letter("hello");
+// console.log(res);
+
+
+function finds(arr){
+return arr.reduce((acc,num,i)=>{
+    if(num%3==0 || num%7==0){
+        acc.push(i);
+        return acc;
     }
-
+    return acc;
 },[])
-
-
 }
-let res=letter("hello");
+let res=finds([10,30,33,49,84,100,105]);
 console.log(res);

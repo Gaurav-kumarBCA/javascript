@@ -324,3 +324,66 @@
 // }
 // let res=check("string","k");
 // console.log(res);
+
+
+// reverse the sentence program?
+
+// function sentence(str){
+// let str1=str.split(" ")
+// // return str1;
+// return str1.map((num)=>num.split("").reverse().join("")).join(" ");
+
+// }
+// let res=sentence("hello bhai and how are you");
+// console.log(res);
+
+
+
+// function sentence(str){
+// let str1=str.split(" ")
+// // return str1;
+// return str1.map((num)=>num.split("").reverse().join("")).join(" ");
+
+// }
+// let res=sentence("hello bhai and how are you");
+// console.log(res);
+
+// function reversestr(str){
+//     let str1 = str.split(" ");
+//     return str1.map((num)=>{
+//       return  num.split("").reverse().join("");
+        
+//     }).join(" ");
+//     console.log(str1);
+// }
+// let res = reversestr("hello bhai and how are you");
+// console.log(res);
+
+// function reversestr(str){
+//     let str1 = str.split(" ");
+//     return str1.map((num)=>{
+//       return  num.split("").reverse().join("");
+        
+//     }).join(" ");
+//     console.log(str1);
+// }
+// let res = reversestr("hello bhai and how are you");
+// console.log(res);
+
+
+
+// function sayHi() {
+//     console.log(name);
+//     console.log(age);
+//     var name = 'Lydia';
+//     let age = 21;
+//   }
+  
+//   sayHi();
+
+
+
+
+
+
+
